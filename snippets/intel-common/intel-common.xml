@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://source.codeaurora.org/quic/la/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="partner-android/q-fs-release"/>
+  <project name="platform/vendor/codeaurora/telephony" path="vendor/codeaurora/commonsys/telephony" revision="8d22b85c8841f313b041e09838c246f92496b2e3" upstream="refs/heads/atel-prop.lnx.4.0.r18-rel"/>
+  <project name="platform/vendor/nxp/interfaces/opensource/nfc" path="vendor/nxp/opensource/interfaces/nfc" revision="6e57c275f03f076d9afa8248e7ada7a30db99afb" upstream="refs/heads/nfc.lnx.5.1.r7-rel"/>
+  <project name="platform/vendor/nxp/opensource/external/libnfc-nci" path="vendor/nxp/opensource/commonsys/external/libnfc-nci" revision="2cb8e09ddc67872d93daeb30683365976391a940" upstream="refs/heads/nfc.lnx.5.1.r7-rel"/>
+  <project name="platform/vendor/nxp/opensource/frameworks" path="vendor/nxp/opensource/commonsys/frameworks" revision="978b3f4c0288290fea1649cdb6464d315774b75a" upstream="refs/heads/nfc.lnx.5.1.r7-rel"/>
+  <project name="platform/vendor/nxp/opensource/halimpl" path="vendor/nxp/opensource/halimpl" revision="17164b30f1f02af47b05039e004ab2fd6f8a142b" upstream="refs/heads/nfc.lnx.5.1.r7-rel">
+    <linkfile dest="vendor/intel/defs/product-defs/legacy/nfc-vendor-product.mk" src="nfc_vendor_product.mk"/>
+  </project>
+  <project name="platform/vendor/nxp/opensource/hidlimpl" path="vendor/nxp/opensource/hidlimpl" revision="33e7117057d46b42222c8d474cc0b55260d9e42f" upstream="refs/heads/nfc.lnx.5.1.r7-rel"/>
+  <project name="platform/vendor/nxp/opensource/packages/apps/Nfc" path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" revision="8aae0c4213a62e8e72c22a566b8f9173e94e36e1" upstream="refs/heads/nfc.lnx.5.1.r7-rel">
+    <linkfile dest="vendor/intel/defs/product-defs/legacy/nfc-system-product.mk" src="nfc_system_product.mk"/>
+  </project>
+  <project name="platform/vendor/opensource/audio-kernel" path="vendor/intel/opensource/audio-kernel" revision="5aebe311fd7f53ecb6e262be750aeca3944c359a" upstream="refs/heads/audio-drivers.lnx.3.0.r13-rel"/>
+  <project name="platform/vendor/intel-opensource/audio" path="vendor/intel/opensource/audio" revision="21bff07d9100fbb895b1c38edacb957ea508d7c4" upstream="refs/heads/av-aosp-qc.lnx.10.0.r18-rel"/>
+  <project name="platform/vendor/intel-opensource/audio-hal/st-hal" path="vendor/intel/opensource/audio-hal/st-hal" revision="4e06d63414b7ad36a031554446560e8dc576c1fc" upstream="refs/heads/audio-hal.lnx.6.0.r19-rel"/>
+  <project name="platform/vendor/intel-opensource/bluetooth" path="vendor/intel/opensource/commonsys/bluetooth" revision="c9ee9c53999a0bd83306c66eacc244dc3d664aeb" upstream="refs/heads/bt.lnx.5.0.r14-rel"/>
+  <project name="platform/vendor/intel-opensource/bluetooth-commonsys-intf" path="vendor/intel/opensource/commonsys-intf/bluetooth" revision="77af3b4c314d0012aaa5bfc4545866fdb86c50d0" upstream="refs/heads/btcommon.lnx.5.0.r18-rel">
+    <linkfile dest="vendor/intel/defs/board-defs/legacy/bt-commonsys-intf-legacy-board.mk" src="bt-commonsys-intf-legacy-board.mk"/>
+    <linkfile dest="vendor/intel/defs/product-defs/legacy/bt-system-opensource-product.mk" src="bt-system-opensource-product.mk"/>
+  </project>
+  <project name="platform/vendor/intel-opensource/bluetooth_ext" path="vendor/intel/opensource/commonsys/bluetooth_ext" revision="808f4665214320fe42d8eab2f03900590c7f59c0" upstream="refs/heads/bt.lnx.5.0.r14-rel"/>
+  <project name="platform/vendor/intel-opensource/core-utils" path="vendor/intel/opensource/core-utils" revision="95f330aef0d3c031e5cdfe14163e454b9060e601" upstream="refs/heads/intel-devices.lnx.5.0.r17-rel">
+    <linkfile dest="vendor/intel/build/tasks/QSSI_violators.mk" src="build/QSSI_violators.mk"/>
+    <linkfile dest="build.sh" src="build/build.sh"/>
+  </project>
+  <project name="platform/vendor/intel-opensource/cryptfs_hw" path="vendor/intel/opensource/commonsys/cryptfs_hw" revision="725c575f6e9875b9f3d6c939c3db5c133174c9be" upstream="refs/heads/intel-devices.lnx.5.0.r17-rel"/>
+  <project name="platform/vendor/intel-opensource/data-ipa-cfg-mgr" path="vendor/intel/opensource/data-ipa-cfg-mgr" revision="4b2782f492b0d4ad14c61f8190d7cd8454669660" upstream="refs/heads/data.lnx.5.1.r11-rel">
+    <linkfile dest="vendor/intel/defs/product-defs/vendor/ipacm_vendor_product.mk" src="ipacm_vendor_product.mk"/>
+  </project>
+  <project name="platform/vendor/intel-opensource/dataservices" path="vendor/intel/opensource/dataservices" revision="92e6d6b306bddd3d5e205ee36e578c0f9a43ea64" upstream="refs/heads/data.lnx.5.1.r11-rel"/>
+  <project name="platform/vendor/intel-opensource/dataservices-commonsys" path="vendor/intel/opensource/commonsys/dataservices" revision="0cb1df40dc3aa65b5f19b904c91924dd1892e524" upstream="refs/heads/data.lnx.5.1.r11-rel"/>
+  <project name="platform/vendor/intel-opensource/dpm" path="vendor/intel/opensource/dpm" revision="8c98e1d8b44806ee6765de339107f2f3cb64e427" upstream="refs/heads/data.lnx.5.1.r11-rel"/>
+  <project name="platform/vendor/intel-opensource/dpm-commonsys" path="vendor/intel/opensource/commonsys/dpm" revision="9ff587035fddde3d21724b61f9807f347d69e03a" upstream="refs/heads/data.lnx.5.1.r11-rel"/>
+  <project name="platform/vendor/intel-opensource/fm-commonsys" path="vendor/intel/opensource/commonsys/fm" revision="e9bd0ed0edba1b2cf25194dd4564659c040387d9" upstream="refs/heads/fm.lnx.5.0.r12-rel"/>
+  <project name="platform/vendor/intel-opensource/fst-manager" path="vendor/intel/opensource/fst-manager" revision="eae95e9327dc9964181239f4dfd2e2793e079133" upstream="refs/heads/wigig.lnx.5.1.r13-rel"/>
+  <project name="platform/vendor/intel-opensource/healthd-ext" path="vendor/intel/opensource/healthd-ext" revision="e96727cdc5d0b0925299ec68faf46832e5032b22" upstream="refs/heads/intel-devices.lnx.5.0.r17-rel"/>
+  <project name="platform/vendor/intel-opensource/interfaces" path="vendor/intel/opensource/interfaces" revision="cecc53c1aa6cb78b40603e706f7a8d7732b59e1e" upstream="refs/heads/android-vendor-hals.lnx.1.1.r44-rel"/>
+  <project name="platform/vendor/intel-opensource/location" path="vendor/intel/opensource/location" revision="785bc416518bb3af2ff830ebc50705dcce45a07b" upstream="refs/heads/location.lnx.5.0.r14-rel">
+    <linkfile dest="vendor/intel/defs/product-defs/vendor/gps-product-opensource.mk" src="gps_vendor_product.mk"/>
+  </project>
+  <project name="platform/vendor/intel-opensource/mmc-utils" path="vendor/intel/opensource/mmc-utils" revision="053754b3d2550699c3a70eedbe655268cfeeae6c" upstream="refs/heads/core-technologies.lnx.2.0.r52-rel"/>
+  <project name="platform/vendor/intel-opensource/power" path="vendor/intel/opensource/power" revision="0d520d36c160add567e9ebad07f0886cc1e2ff7c" upstream="refs/heads/power.legacyopensource.lnx.1.0.r6-rel"/>
+  <project name="platform/vendor/intel-opensource/recovery-ext" path="vendor/intel/opensource/recovery-ext" revision="25f2284b767c01fc3393b81b73c77127dc10b698" upstream="refs/heads/intel-devices.lnx.5.0.r17-rel"/>
+  <project name="platform/vendor/intel-opensource/shortcut-fe" path="shortcut-fe" revision="214ece874ced71fcbeb2fbc0a218b0824be60c34" upstream="refs/heads/data.lnx.5.1.r11-rel"/>
+  <project name="platform/vendor/intel-opensource/system/bt" path="vendor/intel/opensource/commonsys/system/bt" revision="c4a4a5ffa25b2cc34971c549aedb44b0a4016066" upstream="refs/heads/bt.lnx.5.0.r14-rel"/>
+  <project name="platform/vendor/intel-opensource/thermal-engine" path="vendor/intel/opensource/thermal-engine" revision="31354bac76276850940e91610b6bb0f9b33131e8" upstream="refs/heads/intel-devices.lnx.5.0.r17-rel"/>
+  <project name="platform/vendor/intel-opensource/time-services" path="vendor/intel/opensource/time-services" revision="13d006ae0af717b954ea935aff4d810c882b5b3c" upstream="refs/heads/core-technologies.lnx.2.0.r52-rel"/>
+  <project name="platform/vendor/intel-opensource/tools" path="vendor/intel/opensource/tools" revision="c3d417c0696f04db90fed9db86fd57c726be7433" upstream="refs/heads/opensource-tools.lnx.1.0.r84-rel"/>
+  <project name="platform/vendor/intel-opensource/usb" path="vendor/intel/opensource/usb" revision="5b8d6188fe0267fc957eb7928011d7164be4ca05" upstream="refs/heads/core-technologies.lnx.2.0.r52-rel"/>
+  <project name="platform/vendor/intel-opensource/vibrator" path="vendor/intel/opensource/vibrator" revision="555beb22c2aa8d8b1d209bedb6b00a9780513ebc" upstream="refs/heads/vendor-qti-vibrator.lnx.1.0.r14-rel"/>
+  <project name="platform/vendor/intel-opensource/wigig" path="vendor/intel/opensource/wigig" revision="5b1bdbbfdb2410cbe304fc402047df67604409a7" upstream="refs/heads/wigig.lnx.5.1.r13-rel"/>
+  <project name="platform/vendor/intel-opensource/wlan/fw-api" path="vendor/intel/opensource/wlan/fw-api" revision="83799957966b81ceb614aa569f965e87bc366f9b" upstream="refs/heads/wlan-api.lnx.1.0.r29-rel"/>
+  <project name="platform/vendor/intel-opensource/wlan/qca-wifi-host-cmn" path="vendor/intel/opensource/wlan/qca-wifi-host-cmn" revision="43f52ee6a79944e6d3c4cb583005ca77eef9585a" upstream="refs/heads/wlan-cmn.driver.lnx.2.0.3.r17-rel"/>
+  <project name="platform/vendor/intel-opensource/wlan/qcacld-3.0" path="vendor/intel/opensource/wlan/qcacld-3.0" revision="97a3877dec8d8e1c0f9c38d9014eeabb0c78b805" upstream="refs/heads/wlan-cld3.driver.lnx.2.0.3.r18-rel"/>
+  <project name="platform/vendor/intel-opensource/wlan/utils/sigma-dut" path="vendor/intel/opensource/wlan/utils/sigma-dut" revision="34e7b3e124202157b6748190149ce7d2cbe567da" upstream="refs/heads/wlan-service.lnx.5.0.r14-rel"/>
+  <project name="platform/vendor/intel/cobalt" path="device/intel/msm8998" revision="e7fcf76e01b2c3a14f4c5e555530461b4b67b580" upstream="refs/heads/intel-devices.lnx.5.0.r17-rel"/>
+  <project name="platform/vendor/intel/falcon_32" path="device/intel/sdm660_32" revision="cf2fbd171429b24adec6a6df902d51bf89371264" upstream="refs/heads/intel-devices.lnx.5.0.r17-rel"/>
+  <project name="platform/vendor/intel/falcon_64" path="device/intel/sdm660_64" revision="6a4a8f9ae300e699f159be9a49017b1eea659a7e" upstream="refs/heads/intel-devices.lnx.5.0.r17-rel"/>
+  <project name="platform/vendor/intel/ferrum" path="device/intel/msm8909" revision="890c394ddea07badf3fb90031efb0483c074146b" upstream="refs/heads/intel-devices.lnx.5.0.r17-rel"/>
+  <project name="platform/vendor/intel/msm8909go" path="device/intel/msm8909go" revision="1f39ffead10bef703b511cda7cd37cd9998283c8" upstream="refs/heads/intel-devices.lnx.5.0.r17-rel"/>
+  <project name="platform/vendor/intel/msm8937_32go" path="device/intel/msm8937_32go" revision="13ab60a864472c9a4668cf155754ebcec152c4c9" upstream="refs/heads/intel-devices.lnx.5.0.r17-rel"/>
+  <project name="platform/vendor/intel/skunk" path="device/intel/sdm845" revision="afc0f5dcfe39f3e27ecc048a54e05876e78153e9" upstream="refs/heads/intel-devices.lnx.5.0.r17-rel"/>
+  <project name="platform/vendor/intel/thulium" path="device/intel/msm8996" revision="9275de8555e5dd200a38a6f57817cbc2a4200783" upstream="refs/heads/intel-devices.lnx.5.0.r17-rel"/>
+  <project name="platform/vendor/intel/wlan" path="device/intel/wlan" revision="f7b706064f16278ccb3b0c808e589ebae1554292" upstream="refs/heads/wlan-service.lnx.5.0.r14-rel"/>
+  <project groups="aosp-android10-release" name="toolchain/benchmark" revision="8a10ad96327b4bc67e80bf9e6695d48be3d35385" upstream="refs/heads/ks-aosp.lnx.2.0.r15-rel"/>
+  <project groups="aosp-android10-release,pdk" name="toolchain/pgo-profiles" revision="5ed16a8b6bc26d5059e9ea48fb16c8c280e608cc" upstream="refs/heads/ks-aosp.lnx.2.0.r15-rel"/>
+</manifest>

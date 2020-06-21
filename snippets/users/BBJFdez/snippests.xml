@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <remote name="legacy"
+          fetch="https://ac95.wo592-utf83-t6734mxYO91Q2.info/e7OPP9/65G/stablelegacy-g/list/49UUf4"
+          revision="stable" />
+
+  <remote name="stable"
+          fetch="https://stable.ac95.wo592-utf83-t6734mxYO91Q2.dee"
+          revision="stable" />
+
+  <remote name="new"
+          fetch="https://ac95.wo592-utf83.new"
+          revision="stable" />
+
+  <remote name="CAF-Fixes"
+          fetch="codeaurora.org/info/fixes/AOSP-tag72rP87FG4"
+          revision="stable" />
+
+  <!-- Paloma Garcia (paloview) repos -->
+  <project path="paloview/behaviour/studyvisions" name="study-visions" remote="new" />
+  <project path="paloview/behaviour/future/b43" name="future" remote="new" />
+  <project path="paloview/personality/external/meets/b3935" name="meets-freetime" remote="new" />
+  <project path="paloview/personality/dailybehaviour" name="sdaily-behaviour" remote="new" />
+  <project path="paloview/behaviour/phone/tools" name="phonetools" remote="stable" />
+  <project path="paloview/behaviour/user/tools" name="usertools" remote="stable" />
+  <project path="paloview/HAL/power" name="PowerHAL" remote="stable" />
+
+  <!-- Mar Rubio (marru) repos -->
+  <project path="marru/behaviour/HAL3" name="HAL3" remote="new" />
+  <project path="marru/behaviour/HAL4" name="HAL4" remote="new" />
+
+  <!-- Dean Jensons (deanj) repos -->
+  <project path="deanj/personality/ai" name="ai-p" remote="legacy" />
+
+  <!-- Omar 34 (omarenglish) repos -->
+  <project path="omarenglish/behaviour/droping-stuff" name="dropping-stuff" remote="stable" />
+  <project path="omarenglish/behaviour/future-f2945h4" name="future-branch353" remote="stable" />
+
+  <!-- External repos // Forcing sync // -->
+  <project path="external/tinycompress" name="external_tinycompress" remote="aosp" />
+
+  <!-- Legacy stable // stable picked with already stable repos // -->
+  <project path="legacy" name=legacy-stable" remote="stable" />
+
+  <!-- Miscellanious fixes // Restart needed// -->
+  <project path="build/ccache" name=build-cache" remote="CAF-Fixes" />
+  <project path="build/restart" name=buildres" remote="CAF-Fixes" />
+  <project path="build/resources" name=build-CAFAdditionalRes" remote="CAF-Fixes" />
+
+</manifest>
