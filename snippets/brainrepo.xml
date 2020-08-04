@@ -69,8 +69,10 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="build/blueprint" name="build_blueprint" remote="brainrepo" />
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="brainrepo" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="vendor_qcom_opensource_thermal-engine" remote="brainrepo" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="brainrepo" />
+
 
   <!-- Vendor Repos -->
   <project path="vendor/caf" name="vendor_caf" remote="brainrepo" />
