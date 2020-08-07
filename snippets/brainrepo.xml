@@ -3,8 +3,11 @@
 
   <remote name="brainrepo"
           fetch="https://github.com/brainrepoCAF"
-          revision="stable" />
+          revision="uranium" />
 
+  <remote name="brainrepo-gitlab"
+          fetch="https://gitlab.com/brainrepoCAF"
+          revision="uranium" />
 
   <!-- Remove repos-->
   <remove-project name="device/amlogic/yukawa" />
@@ -72,7 +75,6 @@
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="brainrepo" />
   <project path="vendor/qcom/opensource/thermal-engine" name="vendor_qcom_opensource_thermal-engine" remote="brainrepo" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="brainrepo" />
-
 
   <!-- Vendor Repos -->
   <project path="vendor/caf" name="vendor_caf" remote="brainrepo" />
