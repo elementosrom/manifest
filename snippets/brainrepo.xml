@@ -3,11 +3,11 @@
 
   <remote name="brainrepo"
           fetch="https://github.com/brainrepoCAF"
-          revision="uranium" />
+          revision="ten" />
 
   <remote name="brainrepo-gitlab"
           fetch="https://gitlab.com/brainrepoCAF"
-          revision="uranium" />
+          revision="ten" />
 
   <!-- Remove repos-->
   <remove-project name="device/amlogic/yukawa" />
