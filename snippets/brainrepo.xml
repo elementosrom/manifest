@@ -6,7 +6,7 @@
           revision="ten" />
 
   <remote name="brainrepo-gitlab"
-          fetch="https://gitlab.com/brainrepoCAF"
+          fetch="https://gitlab.bbjprojek.com"
           revision="ten" />
 
   <!-- Remove repos-->
