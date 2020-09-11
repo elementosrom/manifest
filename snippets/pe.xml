@@ -14,4 +14,19 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="pixel" clone-depth="1" />
   <project path="prebuilts/r8" name="prebuilts_r8" remote="pixel" clone-depth="1" />
 
+  <!-- External repos -->
+  <project path="external/cldr" name="external_cldr" remote="pixel" />
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="pixel" />
+  <project path="external/gptfdisk" name="external_gptfdisk" remote="pixel" />
+  <project path="external/icu" name="external_icu" remote="pixel" />
+  <project path="external/libcxx" name="external_libcxx" remote="pixel" />
+  <project path="external/libhevc" name="external_libhevc" remote="pixel" />
+  <project path="external/libtextclassifier" name="external_libtextclassifier" remote="pixel" />
+  <project path="external/selinux" name="external_selinux" remote="pixel" />
+  <project path="external/sonivox" name="external_sonivox" remote="pixel" />
+  <project path="external/skia" name="external_skia" remote="pixel" />
+  <project path="external/tinyalsa" name="external_tinyalsa" remote="pixel" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="pixel" />
+  <project path="external/toybox" name="external_toybox" remote="pixel" />
+
 </manifest>
