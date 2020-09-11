@@ -789,6 +789,9 @@
   <!-- Remove unused AOSP repos -->
   <include name="snippets/remove.xml" />
 
+  <!-- Track Pixel Experience prebuitls repos -->
+  <include name="snippets/pe.xml" />
+
   <!-- Add some LineageOS repos -->
   <include name="snippets/lineage.xml" />
 
