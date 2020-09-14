@@ -23,19 +23,18 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="element" />
-  <project path="vendor/qcom/opensource/thermal-engine" name="vendor_qcom_opensource_thermal-engine" remote="element" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="element" />
+  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="brainrepo" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="brainrepo" />
 
   <!-- Device Repos -->
-  <project path="device/google/bluecross" name="device_google_bluecross" remote="element" />
-  <project path="kernel/google/crosshatch" name="kernel_google_crosshatch" remote="element" />
-  <project path="vendor/google" name="vendor/google" remote="element" />
+  <project path="device/google/crosshatch" name="device_google_crosshatch" remote="brainrepo" />
+  <project path="kernel/google/crosshatch" name="kernel_google_crosshatch" remote="brainrepo" />
+  <project path="vendor/google" name="vendor/google" remote="brainrepo" />
 
   <!-- Vendor Repos -->
-  <project path="vendor/caf" name="vendor_caf" remote="element" />
-  <project path="vendor/cafstyle" name="vendor_cafstyle" remote="element" />
-  <project path="vendor/gapps" name="vendor_gapps" remote="element" />
-  <project path="vendor/customization" name="vendor_customization" remote="element" />
-
+  <project path="vendor/cafstyle" name="vendor_cafstyle" remote="brainrepo" />
+  <project path="vendor/customization" name="vendor_customization" remote="brainrepo" />
+  <project path="vendor/gms" name="vendor_gms" remote="brainrepo" />
+  <project path="vendor/lewdboratory" name="vendor_lewdboratory" remote="brainrepo" />
+  
 </manifest>
