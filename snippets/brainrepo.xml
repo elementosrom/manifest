@@ -2,11 +2,11 @@
 <manifest>
 
   <remote name="brainrepo"
-          fetch="https://github.com/brainrepoCAF"
+          fetch="https://gitlab.com/brainrepoCAF"
           revision="ten" />
 
-  <remote name="brainrepo-gitlab"
-          fetch="https://gitlab.bbjprojek.com"
+  <remote name="brainrepo-github"
+          fetch="https://github.com/brainrepoCAF"
           revision="ten" />
 
   <!-- General repos -->
