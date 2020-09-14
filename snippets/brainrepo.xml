@@ -36,5 +36,7 @@
   <project path="vendor/customization" name="vendor_customization" remote="brainrepo" />
   <project path="vendor/gms" name="vendor_gms" remote="brainrepo" />
   <project path="vendor/lewdboratory" name="vendor_lewdboratory" remote="brainrepo" />
+  <!-- Keeping vendor/caf for Android 10 builds -->
+  <project path="vendor/caf" name="vendor_caf" remote="brainrepo-github" />
   
 </manifest>
