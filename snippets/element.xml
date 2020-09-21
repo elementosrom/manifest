@@ -25,6 +25,7 @@
   </project>
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="brainrepo" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="brainrepo" />
+  <project path="frameworks/base" name="frameworks_base" remote="brainrepo" />
 
   <!-- Device Repos -->
   <project path="device/google/crosshatch" name="device_google_crosshatch" remote="brainrepo" />
