@@ -23,15 +23,14 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="brainrepo" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="brainrepo" />
+
+  <!-- Frameworks -->
   <project path="frameworks/base" name="frameworks_base" remote="brainrepo" />
 
-  <!-- Device Repos -->
-  <project path="device/google/crosshatch" name="device_google_crosshatch" remote="brainrepo" />
-  <project path="kernel/google/crosshatch" name="kernel_google_crosshatch" remote="brainrepo" />
-  <project path="vendor/google" name="vendor/google" remote="brainrepo" />
-
+  <!-- Packages -->
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="brainrepo" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="brainrepo" />
+ 
   <!-- Vendor Repos -->
   <project path="vendor/cafstyle" name="vendor_cafstyle" remote="brainrepo" />
   <project path="vendor/customization" name="vendor_customization" remote="brainrepo" />
