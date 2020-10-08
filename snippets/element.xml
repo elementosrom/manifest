@@ -29,6 +29,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="brainrepo" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="brainrepo" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="brainrepo" />
  
   <!-- Vendor Repos -->
