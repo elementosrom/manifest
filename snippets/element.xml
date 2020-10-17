@@ -31,11 +31,10 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="brainrepo" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="brainrepo" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="brainrepo" />
- 
+
   <!-- Vendor Repos -->
-  <project path="vendor/cafstyle" name="vendor_cafstyle" remote="brainrepo" />
-  <project path="vendor/customization" name="vendor_customization" remote="brainrepo" />
-  <project path="vendor/gms" name="vendor_gms" remote="brainrepo" />
-  <project path="vendor/lewdboratory" name="vendor_lewdboratory" remote="brainrepo" />
-  
+  <project path="vendor/cafstyle" name="vendor_cafstyle" remote="element" />
+  <project path="vendor/gms" name="vendor_gms" remote="element" />
+  <project path="vendor/lewdboratory" name="vendor_lewdboratory" remote="element" />
+
 </manifest>
