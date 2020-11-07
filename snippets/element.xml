@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="element"
+          fetch="https://gitlab.com/elementosrom"
+          revision="eleven" />
+
+  <remote name="element-github"
+          fetch="https://github.com/elementosrom"
+          revision="eleven" />
+
+  <!-- General repos -->
+  <project path="build/make" name="build" remote="element">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="element">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="element" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="vendor_qcom_opensource_thermal-engine" remote="element" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="element" />
+
+  <!-- Device Repos -->
+  <project path="device/google/bluecross" name="device_google_bluecross" remote="element" />
+  <project path="kernel/google/crosshatch" name="kernel_google_crosshatch" remote="element" />
+  <project path="vendor/google" name="vendor/google" remote="element" />
+
+  <!-- Vendor Repos -->
+  <project path="vendor/caf" name="vendor_caf" remote="element" />
+  <project path="vendor/cafstyle" name="vendor_cafstyle" remote="element" />
+  <project path="vendor/gapps" name="vendor_gapps" remote="element" />
+  <project path="vendor/customization" name="vendor_customization" remote="element" />
+
+</manifest>
