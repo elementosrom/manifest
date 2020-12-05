@@ -2,11 +2,11 @@
 <manifest>
 
   <remote name="element"
-          fetch="https://gitlab.com/elementosrom"
+          fetch="https://github.com/elementosrom"
           revision="eleven" />
 
-  <remote name="element-github"
-          fetch="https://github.com/elementosrom"
+  <remote name="element-gitlab"
+          fetch="https://gitlab.com/elementosrom"
           revision="eleven" />
 
   <!-- General repos -->
@@ -25,16 +25,16 @@
   </project>
 
   <!-- Frameworks -->
-  <project path="frameworks/base" name="frameworks_base" remote="brainrepo" />
+  <project path="frameworks/base" name="frameworks_base" remote="element" />
 
   <!-- Packages -->
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="brainrepo" />
-  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="brainrepo" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="brainrepo" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="element" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="element" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="element" />
 
   <!-- Vendor Repos -->
   <project path="vendor/cafstyle" name="vendor_cafstyle" remote="element" />
-  <project path="vendor/gms" name="vendor_gms" remote="element" />
-  <project path="vendor/lewdboratory" name="vendor_lewdboratory" remote="element" />
+  <project path="vendor/gms" name="vendor_gms" remote="element-gitlab" />
+  <project path="vendor/lewdboratory" name="vendor_lewdboratory" remote="element-gitlab" />
 
 </manifest>

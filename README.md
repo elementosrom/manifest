@@ -1,6 +1,6 @@
 Current version: vanadium
 
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat)](https://github.com/brainrepoCAF/manifest)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat)](https://github.com/elementCAF/manifest)
 
 # ElementOS
 Pure AOSP ROM with all Pixel exclusives apps and goodies, built with SystemUIGoogle to bring Pixel devices a new life
@@ -8,7 +8,7 @@ Pure AOSP ROM with all Pixel exclusives apps and goodies, built with SystemUIGoo
 ### Building ElementOS for your device
 Init and sync the repo
 ```
-repo init -u https://gitlab.com/elementosrom/manifest -b eleven
+repo init -u https://github.com/elementosrom/manifest -b eleven
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 Export and build
