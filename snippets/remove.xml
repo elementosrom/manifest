@@ -32,7 +32,7 @@
   <remove-project name="device/google/coral-kernel" />
   <remove-project name="device/google/coral-sepolicy" />
   <remove-project name="device/google/redbull" />
-  <remove-project name="device/google/redbull-sepolicy" /> 
+  <remove-project name="device/google/redbull-sepolicy" />
   <remove-project name="device/google/redfin" />
   <remove-project name="device/google/redfin-kernel" />
   <remove-project name="device/google/sunfish" />
@@ -63,7 +63,9 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
 
   <!-- frameworks -->
+  <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
 
   <!-- General repos -->
   <remove-project name="platform/build" />

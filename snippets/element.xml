@@ -25,7 +25,9 @@
   </project>
 
   <!-- Frameworks -->
+  <project path="frameworks/av" name="frameworks_av" remote="element" />
   <project path="frameworks/base" name="frameworks_base" remote="element" />
+  <project path="frameworks/native" name="frameworks_native" remote="element" />
 
   <!-- Packages -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="element" />
