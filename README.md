@@ -1,6 +1,6 @@
 Current version: vanadium
 
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat)](https://github.com/elementCAF/manifest)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat)](https://github.com/elementosrom/manifest)
 
 # ElementOS
 Pure AOSP ROM with all Pixel exclusives apps and goodies, built with SystemUIGoogle to bring Pixel devices a new life
