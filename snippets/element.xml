@@ -34,6 +34,7 @@
   <project path="frameworks/native" name="frameworks_native" remote="element" />
 
   <!-- Packages -->
+  <project path="packages/apps/ElementWallsStub" name="packages_apps_ElementWallsStub" remote="element" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="element" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="element" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="element" />
