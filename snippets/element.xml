@@ -23,6 +23,10 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="external/zip" name="external_zip" remote="element" />
+
+  <!-- Device Repos -->
+  <project path="device/common" name="device_common" remote="element" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="element" />
@@ -32,6 +36,7 @@
   <!-- Packages -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="element" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="element" />
+  <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="element" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="element" />
 
   <!-- Vendor Repos -->
