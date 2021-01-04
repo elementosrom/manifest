@@ -1,7 +1,5 @@
 Current version: vanadium
 
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat)](https://github.com/elementosrom/manifest)
-
 # ElementOS
 Pure AOSP ROM with all Pixel exclusives apps and goodies, built with SystemUIGoogle to bring Pixel devices a new life
 
@@ -18,6 +16,3 @@ Export and build
 lunch aosp_(chipset_id)-userdebug
 mka bacon
 ```
-
-### Adding dependencies
-You must add all dependencies for your device including kernel and its headers, device tree, common tree and product/vendor files
