@@ -1,4 +1,4 @@
-Current version: vanadium
+Current version: arsenic
 
 # ElementOS
 Pure AOSP ROM with all Pixel exclusives apps and goodies, built with SystemUIGoogle to bring Pixel devices a new life
