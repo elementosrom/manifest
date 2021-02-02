@@ -34,7 +34,7 @@
   <project path="frameworks/native" name="frameworks_native" remote="element" />
 
   <!-- Packages -->
-  <project path="packages/apps/ElementWallsStub" name="packages_apps_ElementWallsStub" remote="element" />
+  <project path="packages/apps/ElementOSWallsStub" name="packages_apps_ElementOSWallsStub" remote="element" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="element" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="element" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="element" />
@@ -42,6 +42,7 @@
 
   <!-- Vendor Repos -->
   <project path="vendor/cafstyle" name="vendor_cafstyle" remote="element" />
+  <project path="vendor/fonts" name="vendor_fonts" remote="element" />
   <project path="vendor/gms" name="vendor_gms" remote="element-gitlab" />
   <project path="vendor/googlab" name="vendor_googlab" remote="element-gitlab" />
 
