@@ -1,3 +1,5 @@
+![Banner](https://github.com/ElementOSROM/tools/blob/master/images/manifest_rev1.png?raw=true)
+
 Current version: arsenic
 
 # ElementOS
