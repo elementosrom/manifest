@@ -53,6 +53,9 @@
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
 
+  <!-- frameworks -->
+  <remove-project name="platform/frameworks/base" />
+
   <!-- External repos -->
   <remove-project name="platform/external/cldr" />
   <remove-project name="platform/external/e2fsprogs" />
@@ -126,6 +129,7 @@
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Protips" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
+  <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/SoundRecorder" />
   <remove-project name="platform/packages/apps/SpareParts" />

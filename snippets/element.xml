@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="element"
+          fetch="https://github.com/elementosrom"
+          revision="ten" />
+
+  <remote name="element-gitlab"
+          fetch="https://gitlab.com/elementosrom"
+          revision="ten" />
+
+  <!-- General repos -->
+  <project path="build/make" name="build" remote="element">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="element">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="element" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/base" name="frameworks_base" remote="element" />
+
+  <!-- Packages -->
+  <project path="packages/apps/ElementOSWallsStub" name="packages_apps_ElementOSWallsStub" remote="element" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="element" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="element" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="element" />
+
+  <!-- Vendor Repos -->
+  <project path="vendor/cafstyle" name="vendor_cafstyle" remote="element" />
+  <project path="vendor/fonts" name="vendor_fonts" remote="element" />
+  <project path="vendor/gms" name="vendor_gms" remote="element" />
+  <project path="vendor/lewdboratory" name="vendor_lewdboratory" remote="element" />
+
+</manifest>
